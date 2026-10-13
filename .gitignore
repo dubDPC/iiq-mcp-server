@@ -1,0 +1,20 @@
+# Secrets -- NEVER commit
+.env
+.env.local
+
+# Discovered-UUID caches (no secrets, but no need to track)
+.cache/
+.iiq_*_cache.json
+
+# Local ticket data (contains staff/student PII) -- never commit
+my_tickets.json
+*.tickets.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv*/
+
+# Logs
+*.log

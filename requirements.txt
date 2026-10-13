@@ -1,0 +1,8 @@
+# Incident IQ MCP server dependencies
+#
+# Uses the current mcp SDK (2.x, MCPServer API). mcp 2.x requires Python >=3.10,
+# so install this into a 3.10+ venv (see README). Require the 2.x major so a
+# future 3.x can't silently break imports.
+mcp>=2,<3
+requests>=2.31.0
+python-dotenv>=1.0.0
